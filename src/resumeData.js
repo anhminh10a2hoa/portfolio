@@ -1,8 +1,11 @@
 let resumeData = {
     "imagebaseurl": "https://rbhatia46.github.io/",
     "name": "Hoang Anh Minh",
-    "role": "PHP Developer",
+    "role": "Software developer",
     "gmail": "hoanganhminhhn17@gmail.com",
+    "dob": "25/06/2000",
+    "nationality" : "Vietnamese",
+    "address" : "65200 Vaasa, Finland",
     "linkedin": "https://www.linkedin.com/in/minh-hoang-110510181/",
     "phonenumber": "0403620608",
     "roleDescription": "",
@@ -23,7 +26,6 @@ let resumeData = {
         }
     ],
     "aboutme": "Experienced IT developer with a demonstrated history of working in the software industry. Skilled in HTML, CSS, PHP, Java Script, and Node.js...",
-    "address": "Vaasa, Finland",
     "website": "https://anhminh10a2hoa.github.io/CV-REACT/",
     "education": [{
             "UniversityName": "Hus High School for Gifted Students",

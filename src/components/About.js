@@ -16,12 +16,15 @@ export default class About extends Component {
 
                <h2>About Me</h2>
                <p>
+               <b>Name:</b> {resumeData.name} <br></br>
+               <b>D.O.B: </b> {resumeData.dob} <br></br>
+               <b>Nationality: </b> {resumeData.nationality} <br></br>
                {
                  resumeData.aboutme
                }
                </p>
 
-               <div className="row">
+               {/* <div className="row">
 
                   <div className="columns contact-details">
 
@@ -36,7 +39,7 @@ export default class About extends Component {
                     <span>{resumeData.website}</span>
        					   </p>
                   </div>
-               </div>
+               </div> */}
             </div>
          </div>
       </section>
