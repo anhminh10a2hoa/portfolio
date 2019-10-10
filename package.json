@@ -2,7 +2,7 @@
   "name": "resume",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://anhminh10a2hoa.github.io/CV-REACT/",
+  "homepage": "https://anhminh10a2hoa.github.io/Resume-React",
   "dependencies": {
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
