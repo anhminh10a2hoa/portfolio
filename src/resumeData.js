@@ -41,15 +41,15 @@ let resumeData = {
         }
     ],
     "experience": [{
-            "CompanyName": "ANZ Company",
+            "CompanyName": "ANZ Solution and Technology Joint Stock Company",
             "specialization": "PHP & JavaScript Developer",
             "MonthOfLeaving": "August",
             "YearOfLeaving": "2019",
         },
         {
-            "CompanyName": "Vietpro Company",
-            "specialization": "Web Developer",
-            "MonthOfLeaving": "September",
+            "CompanyName": "Vietpro Technology Academy",
+            "specialization": "PHP Web Developer",
+            "MonthOfLeaving": "August",
             "YearOfLeaving": "2019",
         }
     ],
@@ -91,25 +91,30 @@ let resumeData = {
         "className": "fas fa-database"
     },
     ],
-    "portfolio": [{
+    "testimonials": [{
             "name": "Mobile Shop by PHP",
-            "description": "mobileweb",
-            "imgurl": "images/project1.png"
+            "link": "https://github.com/anhminh10a2hoa/ShopByPHP",
+            "image": "../images/ShopByPhp.png"
         },
         {
             "name": "Shopping Web by Laravel",
-            "description": "mobileapp",
-            "imgurl": "images/project2.png"
+            "link": "https://github.com/anhminh10a2hoa/MVC-Laravel",
+            "image": "../images/ShopByLaravel.png"
         },
         {
-            "name": "project3",
-            "description": "mobileapp",
-            "imgurl": "images/portfolio/project2.png"
+            "name": "E-book Online by PHP",
+            "link": "https://github.com/anhminh10a2hoa/ebookonline",
+            "image": "../images/eBookOnline.png"
         },
         {
-            "name": "project4",
-            "description": "mobileapp",
-            "imgurl": "images/portfolio/phone.jpg"
+            "name": "Raspberry Pi",
+            "link": "https://github.com/anhminh10a2hoa/appdev1",
+            "image": "../images/rasppi.png"
+        },
+        {
+            "name": "Another projects by NodeJs, ReactJs, ...",
+            "link": "https://github.com/anhminh10a2hoa?tab=repositories",
+            "image": "../images/anotherProject.jpg"
         }
     ]
 }
