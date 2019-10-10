@@ -94,27 +94,27 @@ let resumeData = {
     "testimonials": [{
             "name": "Mobile Shop by PHP",
             "link": "https://github.com/anhminh10a2hoa/ShopByPHP",
-            "image": "../images/ShopByPhp.png"
+            "image": "./images/ShopByPhp.png"
         },
         {
             "name": "Shopping Web by Laravel",
             "link": "https://github.com/anhminh10a2hoa/MVC-Laravel",
-            "image": "../images/ShopByLaravel.png"
+            "image": "./images/ShopByLaravel.png"
         },
         {
             "name": "E-book Online by PHP",
             "link": "https://github.com/anhminh10a2hoa/ebookonline",
-            "image": "../images/eBookOnline.png"
+            "image": "./images/eBookOnline.png"
         },
         {
             "name": "Raspberry Pi",
             "link": "https://github.com/anhminh10a2hoa/appdev1",
-            "image": "../images/rasppi.png"
+            "image": "./images/rasppi.png"
         },
         {
             "name": "Another projects by NodeJs, ReactJs, ...",
             "link": "https://github.com/anhminh10a2hoa?tab=repositories",
-            "image": "../images/anotherProject.jpg"
+            "image": "./images/anotherProject.jpg"
         }
     ]
 }
