@@ -47,12 +47,14 @@ let resumeData = {
             "specialization": "PHP & JavaScript Developer",
             "MonthOfLeaving": "August",
             "YearOfLeaving": "2019",
+            "Achievements": "Completed"
         },
         {
             "CompanyName": "Vietpro Technology Academy",
             "specialization": "PHP Web Developer",
             "MonthOfLeaving": "August",
             "YearOfLeaving": "2019",
+            "Achievements": "Completed"
         }
     ],
     "skillsDescription": "PROGRAMMING LANGUAGES & TOOLS",

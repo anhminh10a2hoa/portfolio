@@ -269,9 +269,9 @@ ul#nav li.current a {
 }
 
 #about .profile-pic {
-    position: relative;
+    position: absolute;
     width: 240px;
-    height: 240px;
+    height: 200px;
     border-radius: 100%;
 }
 
@@ -425,6 +425,10 @@ ul#nav li.current a {
 
 .fa-react {
     color: #61dbfb;
+}
+
+.fa-node {
+    color: #68A063;
 }
 
 

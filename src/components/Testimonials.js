@@ -34,15 +34,3 @@ export default class Testimonials extends Component {
         );
   }
 }
-
-{/* <div class="col col-md-6 col-sm">
-      <div class="card" style="width: 18rem;"><img src="img/pi.jpg" class="card-img-top" alt="rasberry-pi">
-<div class="card-body">
-  <h5 class="card-title">Sound</h5>
-  <p class="card-text">
-    This project is to run a Raspberry Pi as an audio device. The device is able to do 2 functions: as
-a sound collector and as a test-tone generator.</p>
-  <a target="_blank" href="https://github.com/phungxuanton/appdev" class="btn btn-warning">Check it out</a>
-</div>
-</div>
-    </div> */}
