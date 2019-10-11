@@ -11,7 +11,7 @@ let resumeData = {
     "roleDescription": "",
     "socialLinks": [{
             "name": "linkedin",
-            "url": "https://www.linkedin.com/in/minh-anh-110510181/",
+            "url": "https://www.linkedin.com/in/minh-hoang-110510181/",
             "className": "fab fa-linkedin"
         },
         {
@@ -30,7 +30,7 @@ let resumeData = {
     "education": [{
             "UniversityName": "Hus High School for Gifted Students",
             "specialization": "Chemistry",
-            "MonthOfPassing": "Aug",
+            "MonthOfPassing": "August",
             "YearOfPassing": "2018",
             "Achievements": "Graduated"
         },
