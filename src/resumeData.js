@@ -2,7 +2,7 @@ let resumeData = {
   imagebaseurl: "https://rbhatia46.github.io/",
   name: "Hoang Anh Minh",
   role: "Software developer",
-  gmail: "hoanganhminhhn17@gmail.com",
+  gmail: "anhminh10a2hoa@gmail.com",
   dob: "25/06/2000",
   nationality: "Vietnamese",
   address: "65200 Vaasa, Finland",
@@ -78,18 +78,6 @@ let resumeData = {
   skillsDescription: "PROGRAMMING LANGUAGES & TOOLS",
   skillLinks: [
     {
-      name: "aws",
-      className: "fab fa-java",
-    },
-    {
-      name: "aws",
-      className: "fab fa-js",
-    },
-    {
-      name: "aws",
-      className: "fab fa-aws",
-    },
-    {
       name: "html5",
       className: "fab fa-html5",
     },
@@ -98,12 +86,8 @@ let resumeData = {
       className: "fab fa-css3",
     },
     {
-      name: "php",
-      className: "fab fa-php",
-    },
-    {
-      name: "laravel",
-      className: "fab fa-laravel",
+      name: "js",
+      className: "fab fa-js",
     },
     {
       name: "nodejs",
@@ -113,6 +97,25 @@ let resumeData = {
       name: "reactjs",
       className: "fab fa-react",
     },
+    {
+      name: "java",
+      className: "fab fa-java",
+    },
+
+    {
+      name: "aws",
+      className: "fab fa-aws",
+    },
+
+    {
+      name: "php",
+      className: "fab fa-php",
+    },
+    {
+      name: "laravel",
+      className: "fab fa-laravel",
+    },
+
     {
       name: "sass",
       className: "fab fa-sass",
@@ -138,14 +141,25 @@ let resumeData = {
       image: "./images/ShopByLaravel.png",
     },
     {
+      name: "Web visualization by ReactJs",
+      link: "",
+      image: "./images/WebVisualization.png",
+    },
+    {
+      name: "Natours Web by Nodejs",
+      link: "https://github.com/anhminh10a2hoa/Natours-Nodejs",
+      image: "./images/natourWeb.png",
+    },
+    {
+      name: "Burger-Builder-Application-ReactJs",
+      link:
+        "https://github.com/anhminh10a2hoa/Burger-Builder-Application-ReactJs",
+      image: "./images/burgerBuilder.png",
+    },
+    {
       name: "E-book Online by PHP",
       link: "https://github.com/anhminh10a2hoa/ebookonline",
       image: "./images/eBookOnline.png",
-    },
-    {
-      name: "Web visualization",
-      link: "",
-      image: "./images/WebVisualization.png",
     },
     {
       name: "Raspberry Pi",

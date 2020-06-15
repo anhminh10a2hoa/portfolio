@@ -18,9 +18,7 @@
 
 ===================================================================== */
 
-
 /* ------------------------------------------------------------------ */
-
 
 /* a. General Styles
 /* ------------------------------------------------------------------ */
@@ -29,9 +27,7 @@ body {
     background: #0f0f0f;
 }
 
-
 /* ------------------------------------------------------------------ */
-
 
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
@@ -48,11 +44,10 @@ header {
     overflow: hidden;
 }
 
-
 /* vertically center banner section */
 
 header:before {
-    content: '';
+    content: "";
     display: inline-block;
     vertical-align: middle;
     height: 100%;
@@ -72,19 +67,19 @@ header .banner-text {
 }
 
 header .banner-text h1 {
-    font: 90px/1.1em 'opensans-bold', sans-serif;
+    font: 90px/1.1em "opensans-bold", sans-serif;
     color: #fff;
     letter-spacing: -2px;
     margin: 0 auto 18px auto;
-    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
 }
 
 header .banner-text h3 {
-    font: 18px/1.9em 'librebaskerville-regular', serif;
-    color: #A8A8A8;
+    font: 18px/1.9em "librebaskerville-regular", serif;
+    color: #a8a8a8;
     margin: 0 auto;
     width: 70%;
-    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 header .banner-text h3 span,
@@ -95,10 +90,9 @@ header .banner-text h3 a {
 header .banner-text hr {
     width: 60%;
     margin: 18px auto 24px auto;
-    border-color: #2F2D2E;
-    border-color: rgba(150, 150, 150, .1);
+    border-color: #2f2d2e;
+    border-color: rgba(150, 150, 150, 0.1);
 }
-
 
 /* header social links */
 
@@ -106,7 +100,7 @@ header .social {
     margin: 24px 0;
     padding: 0;
     font-size: 30px;
-    text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8);
 }
 
 header .social li {
@@ -120,9 +114,8 @@ header .social li a {
 }
 
 header .social li a:hover {
-    color: #11ABB0;
+    color: #11abb0;
 }
-
 
 /* scrolldown link */
 
@@ -139,16 +132,15 @@ header .scrolldown a {
     line-height: 42px;
     color: #fff;
     border-radius: 100%;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 header .scrolldown a:hover {
-    color: #11ABB0;
+    color: #11abb0;
 }
-
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -162,11 +154,10 @@ header .scrolldown a:hover {
     outline: none;
 }
 
-
 /* nav-wrap */
 
 #nav-wrap {
-    font: 12px 'opensans-bold', sans-serif;
+    font: 12px "opensans-bold", sans-serif;
     width: 100%;
     text-transform: uppercase;
     letter-spacing: 2.5px;
@@ -181,10 +172,9 @@ header .scrolldown a:hover {
     background-color: #333;
 }
 
-
 /* hide toggle button */
 
-#nav-wrap>a.mobile-btn {
+#nav-wrap > a.mobile-btn {
     display: none;
 }
 
@@ -202,7 +192,6 @@ ul#nav li {
     display: inline-block;
 }
 
-
 /* Links */
 
 ul#nav li a {
@@ -213,11 +202,11 @@ ul#nav li a {
     text-decoration: none;
     text-align: left;
     color: #fff;
-    -webkit-transition: color .2s ease-in-out;
-    -moz-transition: color .2s ease-in-out;
-    -o-transition: color .2s ease-in-out;
-    -ms-transition: color .2s ease-in-out;
-    transition: color .2s ease-in-out;
+    -webkit-transition: color 0.2s ease-in-out;
+    -moz-transition: color 0.2s ease-in-out;
+    -o-transition: color 0.2s ease-in-out;
+    -ms-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
 }
 
 ul#nav li a:active {
@@ -225,18 +214,16 @@ ul#nav li a:active {
 }
 
 ul#nav li.current a {
-    color: #F06000;
+    color: #f06000;
 }
 
-
 /* ------------------------------------------------------------------ */
-
 
 /* c. About Section
 /* ------------------------------------------------------------------ */
 
 #about {
-    background: #8E6363;
+    background: #8e6363;
     padding-top: 96px;
     padding-bottom: 66px;
     overflow: hidden;
@@ -249,18 +236,18 @@ ul#nav li.current a {
 
 #about a:hover,
 #about a:focus {
-    color: #11ABB0;
+    color: #11abb0;
 }
 
 #about h2 {
-    font: 22px/30px 'opensans-bold', sans-serif;
+    font: 22px/30px "opensans-bold", sans-serif;
     color: #fff;
     margin-bottom: 12px;
 }
 
 #about h4 {
     font: 10px/30px;
-    color: white
+    color: white;
 }
 
 #about p {
@@ -295,7 +282,7 @@ ul#nav li.current a {
 
 #about .download .button:hover {
     background: #fff;
-    color: #2B2B2B;
+    color: #2b2b2b;
 }
 
 #about .download .button i {
@@ -303,9 +290,7 @@ ul#nav li.current a {
     font-size: 20px;
 }
 
-
 /* ------------------------------------------------------------------ */
-
 
 /* d. Resume Section
 /* ------------------------------------------------------------------ */
@@ -319,7 +304,7 @@ ul#nav li.current a {
 
 #resume a,
 #resume a:visited {
-    color: #11ABB0;
+    color: #11abb0;
 }
 
 #resume a:hover,
@@ -328,18 +313,18 @@ ul#nav li.current a {
 }
 
 #resume h1 {
-    font: 18px/24px 'opensans-bold', sans-serif;
+    font: 18px/24px "opensans-bold", sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 
 #resume h1 span {
-    border-bottom: 3px solid #11ABB0;
+    border-bottom: 3px solid #11abb0;
     padding-bottom: 6px;
 }
 
 #resume h3 {
-    font: 25px/30px 'opensans-bold', sans-serif;
+    font: 25px/30px "opensans-bold", sans-serif;
 }
 
 #resume .header-col {
@@ -354,12 +339,12 @@ ul#nav li.current a {
 .work {
     margin-bottom: 48px;
     padding-bottom: 24px;
-    border-bottom: 1px solid #E8E8E8;
+    border-bottom: 1px solid #e8e8e8;
 }
 
 #resume .info {
-    font: 16px/24px 'librebaskerville-italic', serif;
-    color: #6E7881;
+    font: 16px/24px "librebaskerville-italic", serif;
+    color: #6e7881;
     margin-bottom: 18px;
     margin-top: 9px;
 }
@@ -370,13 +355,11 @@ ul#nav li.current a {
 }
 
 #resume .date {
-    font: 15px/24px 'opensans-regular', sans-serif;
+    font: 15px/24px "opensans-regular", sans-serif;
     margin-top: 6px;
 }
 
-
 /*----------------------------------------------*/
-
 
 /*	Skill Bars
 /*----------------------------------------------*/
@@ -395,20 +378,28 @@ ul#nav li.current a {
     padding: 0;
 }
 
+.fa-java {
+    color: red;
+}
+
+.fa-aws {
+    color: orange;
+}
+
 .fa-css3 {
     color: rgb(38, 77, 228);
 }
 
 .fa-html5 {
-    color: #FF5733;
+    color: #ff5733;
 }
 
 .fa-php {
-    color: #474A8A;
+    color: #474a8a;
 }
 
 .fa-laravel {
-    color: #F05340;
+    color: #f05340;
 }
 
 .fa-bootstrap {
@@ -428,12 +419,10 @@ ul#nav li.current a {
 }
 
 .fa-node {
-    color: #68A063;
+    color: #68a063;
 }
 
-
 /* ------------------------------------------------------------------ */
-
 
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
@@ -445,14 +434,13 @@ ul#nav li.current a {
 }
 
 #portfolio h1 {
-    font: 15px/24px 'opensans-semibold', sans-serif;
+    font: 15px/24px "opensans-semibold", sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
     text-align: center;
     margin-bottom: 48px;
-    color: #95A3A3;
+    color: #95a3a3;
 }
-
 
 /* Portfolio Content */
 
@@ -475,7 +463,6 @@ ul#nav li.current a {
     display: block;
     cursor: pointer;
 }
-
 
 /* overlay */
 
@@ -522,20 +509,19 @@ ul#nav li.current a {
 }
 
 .portfolio-item .portfolio-item-meta {
-    padding: 18px
+    padding: 18px;
 }
 
 .portfolio-item .portfolio-item-meta h5 {
-    font: 14px/21px 'opensans-bold', sans-serif;
+    font: 14px/21px "opensans-bold", sans-serif;
     color: #fff;
 }
 
 .portfolio-item .portfolio-item-meta p {
-    font: 12px/18px 'opensans-light', sans-serif;
+    font: 12px/18px "opensans-light", sans-serif;
     color: #c6c7c7;
     margin-bottom: 0;
 }
-
 
 /* on hover */
 
@@ -551,7 +537,6 @@ ul#nav li.current a {
     filter: alpha(opacity=100);
 }
 
-
 /* popup modal */
 
 .popup-modal {
@@ -566,20 +551,20 @@ ul#nav li.current a {
 }
 
 .popup-modal .description-box h4 {
-    font: 15px/24px 'opensans-bold', sans-serif;
+    font: 15px/24px "opensans-bold", sans-serif;
     margin-bottom: 12px;
     color: #111;
 }
 
 .popup-modal .description-box p {
-    font: 14px/24px 'opensans-regular', sans-serif;
-    color: #A1A1A1;
+    font: 14px/24px "opensans-regular", sans-serif;
+    color: #a1a1a1;
     margin-bottom: 12px;
 }
 
 .popup-modal .description-box .categories {
-    font: 11px/21px 'opensans-light', sans-serif;
-    color: #A1A1A1;
+    font: 11px/21px "opensans-light", sans-serif;
+    color: #a1a1a1;
     text-transform: uppercase;
     letter-spacing: 2px;
     display: block;
@@ -598,24 +583,22 @@ ul#nav li.current a {
 
 .popup-modal .link-box a {
     color: #fff;
-    font: 11px/21px 'opensans-bold', sans-serif;
+    font: 11px/21px "opensans-bold", sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
     cursor: pointer;
 }
 
 .popup-modal a:hover {
-    color: #00CCCC;
+    color: #00cccc;
 }
 
 .popup-modal a.popup-modal-dismiss {
     margin-left: 24px;
 }
 
-
 /* fadein/fadeout effect for modal popup
 /* ------------------------------------------------------------------ */
-
 
 /* content at start */
 
@@ -628,13 +611,11 @@ ul#nav li.current a {
     transition: all 200ms ease-in-out;
 }
 
-
 /* content fadein */
 
 .mfp-fade.mfp-wrap.mfp-ready .mfp-content .popup-modal {
     opacity: 1;
 }
-
 
 /* content fadeout */
 
@@ -642,9 +623,7 @@ ul#nav li.current a {
     opacity: 0;
 }
 
-
 /* ------------------------------------------------------------------ */
-
 
 /* f. Call To Action Section
 /* ------------------------------------------------------------------ */
@@ -656,7 +635,7 @@ ul#nav li.current a {
 }
 
 #call-to-action h1 {
-    font: 18px/24px 'opensans-bold', sans-serif;
+    font: 18px/24px "opensans-bold", sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
     color: #fff;
@@ -667,7 +646,7 @@ ul#nav li.current a {
 }
 
 #call-to-action .header-col h1:before {
-    font-family: 'FontAwesome';
+    font-family: "FontAwesome";
     content: "\f0ac";
     padding-right: 10px;
     font-size: 72px;
@@ -682,8 +661,8 @@ ul#nav li.current a {
 }
 
 #call-to-action h2 {
-    font: 28px/36px 'opensans-bold', sans-serif;
-    color: #EBEEEE;
+    font: 28px/36px "opensans-bold", sans-serif;
+    color: #ebeeee;
     margin-bottom: 6px;
 }
 
@@ -696,7 +675,6 @@ ul#nav li.current a {
     font-size: 17px;
 }
 
-
 /*#
 call-to-action .button {
 	color:#fff;
@@ -706,22 +684,21 @@ call-to-action .button {
 
 #call-to-action .button:hover,
 #call-to-action .button:active {
-    background: #FFFFFF;
-    color: #0D0D0D;
+    background: #ffffff;
+    color: #0d0d0d;
 }
 
 #call-to-action p span {
-    font-family: 'opensans-semibold', sans-serif;
-    color: #D8D8D8;
+    font-family: "opensans-semibold", sans-serif;
+    color: #d8d8d8;
 }
-
 
 /* ------------------------------------------------------------------
 /* g. Testimonials
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-    background: #1F1F1F url(../images/samac.jpg) no-repeat center center;
+    background: #1f1f1f url(../images/samac.jpg) no-repeat center center;
     background-size: cover !important;
     -webkit-background-size: cover !important;
     background-attachment: fixed;
@@ -737,7 +714,7 @@ call-to-action .button {
 }
 
 #testimonials h1 {
-    font: 18px/24px 'opensans-bold', sans-serif;
+    font: 18px/24px "opensans-bold", sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
     color: #fff;
@@ -752,7 +729,7 @@ call-to-action .button {
 }
 
 #testimonials .header-col h1:before {
-    font-family: 'FontAwesome';
+    font-family: "FontAwesome";
     content: "\f10d";
     padding-right: 10px;
     font-size: 72px;
@@ -761,7 +738,6 @@ call-to-action .button {
     float: left;
     color: #fff;
 }
-
 
 /*	Blockquotes */
 
@@ -777,11 +753,11 @@ call-to-action .button {
 }
 
 #testimonials blockquote p {
-    font-family: 'librebaskerville-italic', serif;
+    font-family: "librebaskerville-italic", serif;
     padding: 0;
     font-size: 24px;
     line-height: 48px;
-    color: #fff
+    color: #fff;
 }
 
 #testimonials blockquote cite {
@@ -798,14 +774,12 @@ call-to-action .button {
 
 #testimonials blockquote cite a,
 #testimonials blockquote cite a:visited {
-    color: #8B9798;
-    border: none
+    color: #8b9798;
+    border: none;
 }
-
 
 /* Flex Slider
 /* ------------------------------------------------------------------ */
-
 
 /* Reset */
 
@@ -827,7 +801,6 @@ call-to-action .button {
     padding: 0;
 }
 
-
 /* Necessary Styles */
 
 .flexslider {
@@ -841,17 +814,15 @@ call-to-action .button {
     zoom: 1;
 }
 
-.flexslider .slides>li {
+.flexslider .slides > li {
     position: relative;
 }
 
-
 /* Hide the slides before the JS is loaded. Avoids image jumping */
 
-.flexslider .slides>li {
+.flexslider .slides > li {
     display: none;
 }
-
 
 /* Suggested container for slide animation setups. Can replace this with your own */
 
@@ -859,7 +830,6 @@ call-to-action .button {
     zoom: 1;
     position: relative;
 }
-
 
 /* Clearfix for .slides */
 
@@ -873,17 +843,14 @@ call-to-action .button {
     clear: both;
 }
 
-
 /* No JavaScript Fallback */
-
 
 /* If you are not using another script, such as Modernizr, make sure you
  * include js that eliminates this class on page load */
 
-.no-js .slides>li:first-child {
+.no-js .slides > li:first-child {
     display: block;
 }
-
 
 /* Slider Styles */
 
@@ -891,11 +858,10 @@ call-to-action .button {
     zoom: 1;
 }
 
-.slides>li {
+.slides > li {
     /*margin-right: 5px; */
     overflow: hidden;
 }
-
 
 /* Control Nav */
 
@@ -918,39 +884,37 @@ call-to-action .button {
     height: 12px;
     display: block;
     background: #ddd;
-    background: rgba(255, 255, 255, .3);
+    background: rgba(255, 255, 255, 0.3);
     cursor: pointer;
     text-indent: -9999px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -o-border-radius: 20px;
     border-radius: 20px;
-    box-shadow: inset 0 0 3px rgba(255, 255, 255, .3);
+    box-shadow: inset 0 0 3px rgba(255, 255, 255, 0.3);
 }
 
 .flex-control-paging li a:hover {
-    background: #CCC;
-    background: rgba(255, 255, 255, .7);
+    background: #ccc;
+    background: rgba(255, 255, 255, 0.7);
 }
 
 .flex-control-paging li a.flex-active {
     background: #fff;
-    background: rgba(255, 255, 255, .9);
+    background: rgba(255, 255, 255, 0.9);
     cursor: default;
 }
 
-
 /* ------------------------------------------------------------------ */
-
 
 /* h. Contact Section
 /* ------------------------------------------------------------------ */
 
 #contact {
-    background: #8E6363;
+    background: #8e6363;
     padding-top: 96px;
     padding-bottom: 102px;
-    color: #8E6363;
+    color: #8e6363;
 }
 
 #contact .section-head {
@@ -959,7 +923,7 @@ call-to-action .button {
 
 #contact a,
 #contact a:visited {
-    color: #11ABB0;
+    color: #11abb0;
 }
 
 #contact a:hover,
@@ -968,10 +932,10 @@ call-to-action .button {
 }
 
 #contact h2 {
-    font: 18px/24px 'opensans-bold', sans-serif;
+    font: 18px/24px "opensans-bold", sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: #EBEEEE;
+    color: #ebeeee;
     margin-bottom: 6px;
 }
 
@@ -980,7 +944,7 @@ call-to-action .button {
 }
 
 #contact h2:before {
-    font-family: 'FontAwesome';
+    font-family: "FontAwesome";
     content: "\f0e0";
     padding-right: 10px;
     font-size: 72px;
@@ -991,20 +955,19 @@ call-to-action .button {
 }
 
 #contact h4 {
-    font: 16px/24px 'opensans-bold', sans-serif;
-    color: #EBEEEE;
+    font: 16px/24px "opensans-bold", sans-serif;
+    color: #ebeeee;
     margin-bottom: 6px;
 }
 
 #contact p.lead {
-    font: 18px/36px 'opensans-light', sans-serif;
+    font: 18px/36px "opensans-light", sans-serif;
     padding-right: 3%;
 }
 
 #contact .header-col {
     padding-top: 6px;
 }
-
 
 /* contact form */
 
@@ -1013,9 +976,9 @@ call-to-action .button {
 }
 
 #contact label {
-    font: 15px/24px 'opensans-bold', sans-serif;
+    font: 15px/24px "opensans-bold", sans-serif;
     margin: 12px 0;
-    color: #EBEEEE;
+    color: #ebeeee;
     display: inline-block;
     width: 26%;
 }
@@ -1038,14 +1001,14 @@ call-to-action .button {
 #contact textarea:focus,
 #contact select:focus {
     color: #fff;
-    background-color: #11ABB0;
+    background-color: #11abb0;
 }
 
 #contact button.submit {
     text-transform: uppercase;
     letter-spacing: 3px;
     color: #fff;
-    background: #0D0D0D;
+    background: #0d0d0d;
     border: none;
     cursor: pointer;
     height: auto;
@@ -1055,19 +1018,19 @@ call-to-action .button {
 }
 
 #contact button.submit:hover {
-    color: #0D0D0D;
+    color: #0d0d0d;
     background: #fff;
 }
 
 #contact span.required {
-    color: #11ABB0;
+    color: #11abb0;
     font-size: 13px;
 }
 
 #message-warning,
 #message-success {
     display: none;
-    background: #0F0F0F;
+    background: #0f0f0f;
     padding: 24px 24px;
     margin-bottom: 36px;
     width: 65%;
@@ -1075,11 +1038,11 @@ call-to-action .button {
 }
 
 #message-warning {
-    color: #D72828;
+    color: #d72828;
 }
 
 #message-success {
-    color: #11ABB0;
+    color: #11abb0;
 }
 
 #message-warning i,
@@ -1093,7 +1056,6 @@ call-to-action .button {
     left: 18px;
     top: 17px;
 }
-
 
 /* Twitter Feed */
 
@@ -1112,14 +1074,12 @@ call-to-action .button {
 }
 
 #twitter li b a {
-    font: 13px/36px 'opensans-regular', Sans-serif;
+    font: 13px/36px "opensans-regular", Sans-serif;
     color: #474747 !important;
     border: none;
 }
 
-
 /* ------------------------------------------------------------------ */
-
 
 /* i. Footer
 /* ------------------------------------------------------------------ */
@@ -1142,7 +1102,6 @@ footer a:hover,
 footer a:focus {
     color: #fff;
 }
-
 
 /* copyright */
 
@@ -1173,7 +1132,6 @@ footer .copyright li:first-child:before {
     display: none;
 }
 
-
 /* social links */
 
 footer .social-links {
@@ -1187,13 +1145,12 @@ footer .social-links li {
     margin: 0;
     padding: 0;
     margin-left: 42px;
-    color: #F06000;
+    color: #f06000;
 }
 
 footer .social-links li:first-child {
     margin-left: 0;
 }
-
 
 /* Go To Top Button */
 
@@ -1223,5 +1180,5 @@ footer .social-links li:first-child {
 }
 
 #go-top a:hover {
-    background-color: #0F9095;
+    background-color: #0f9095;
 }
