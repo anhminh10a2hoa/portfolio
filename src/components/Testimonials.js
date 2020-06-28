@@ -15,12 +15,13 @@ export default class Testimonials extends Component {
               <div className="flexslider">
                 <ul className="slides">
                   {resumeData.testimonials &&
-                    resumeData.testimonials.map((item) => {
+                    resumeData.testimonials.map((item, index) => {
                       return (
-                        <li>
+                        <li key={index}>
                           <img
                             src={item.image}
-                            class="card-img-top"
+                            alt={item.image}
+                            className="card-img-top"
                             height="200px"
                             width="400px"
                           />

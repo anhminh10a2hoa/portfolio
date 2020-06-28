@@ -223,7 +223,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #about {
-    background: #8e6363;
+    background: #f5b971;
     padding-top: 96px;
     padding-bottom: 66px;
     overflow: hidden;
@@ -257,8 +257,9 @@ ul#nav li.current a {
 
 #about .profile-pic {
     position: absolute;
-    width: 240px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
+    left: 5px;
     border-radius: 100%;
 }
 
@@ -911,10 +912,10 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-    background: #8e6363;
+    background: #f5b971;
     padding-top: 96px;
     padding-bottom: 102px;
-    color: #8e6363;
+    color: #f5b971;
 }
 
 #contact .section-head {

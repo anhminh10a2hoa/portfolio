@@ -27,7 +27,13 @@ let resumeData = {
     },
   ],
   aboutme:
-    "Experienced IT developer with a demonstrated history of working in the software industry. Skilled in HTML, CSS, PHP, Java Script, and Node.js...",
+    "I am a second-year student at Vassa University of Applied Science, Software Engineering major. I have some experience with:",
+  aboutme1: "+ Web development: working with React, HTML, CSS, and Bootstrap",
+  aboutme2:
+    "+ Cloud computing: building back-end with NodeJs and Laravel then deploy to AWS or Heroku",
+  aboutme3:
+    "+ Mobile Application: creating a mobile app with using React native",
+  aboutme4: "Now, I am looking for internships, part-time and full-time jobs. ",
   website: "https://anhminh10a2hoa.github.io/CV-REACT/",
   education: [
     {
