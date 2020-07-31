@@ -223,7 +223,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #about {
-    background: #f5b971;
+    background: #ba6b57;
     padding-top: 96px;
     padding-bottom: 66px;
     overflow: hidden;
@@ -912,10 +912,10 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-    background: #f5b971;
+    background: #ba6b57;
     padding-top: 96px;
     padding-bottom: 102px;
-    color: #f5b971;
+    color: #ba6b57;
 }
 
 #contact .section-head {

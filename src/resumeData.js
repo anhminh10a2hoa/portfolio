@@ -74,7 +74,7 @@ let resumeData = {
       Achievements: "Completed",
     },
     {
-      CompanyName: "Project X",
+      CompanyName: "Rain portal (Sky echo company)",
       specialization: "React Js Developer",
       MonthOfLeaving: "Current",
       YearOfLeaving: "2020",
@@ -94,6 +94,10 @@ let resumeData = {
     {
       name: "js",
       className: "fab fa-js",
+    },
+    {
+      name: "ts",
+      className: "fab fa-ts",
     },
     {
       name: "nodejs",
