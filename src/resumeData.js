@@ -27,13 +27,13 @@ let resumeData = {
     },
   ],
   aboutme:
-    "I am a second-year student at Vassa University of Applied Science, Software Engineering major. I have some experience with:",
-  aboutme1: "+ Web development: working with React, HTML, CSS, and Bootstrap",
-  aboutme2:
-    "+ Cloud computing: building back-end with NodeJs and Laravel then deploy to AWS or Heroku",
-  aboutme3:
-    "+ Mobile Application: creating a mobile app with using React native",
-  aboutme4: "Now, I am looking for internships, part-time and full-time jobs. ",
+    "I am a third-year student at Vassa University of Applied Science, Software Engineering major. I have experiences and knowledge about:",
+  aboutme1: "+ Languages: JavaScript, TypeScript, Java",
+  aboutme2: "+ Frontend: React, Vue, Redux, HTML, CSS, Bootstrap",
+  aboutme3: "+ Backend: Express, Node, Spring, Servlet, AWS", 
+  aboutme4: "+ Databases: MySQL, MongoDB, Postgres, MariaDB",
+  aboutme5: "+ Map: MapBox",
+  aboutme6: "+ Technical Practices: REST API Design",
   website: "https://anhminh10a2hoa.github.io/CV-REACT/",
   education: [
     {
@@ -76,67 +76,65 @@ let resumeData = {
     {
       CompanyName: "Rain portal (Sky echo company)",
       specialization: "React Js Developer",
-      MonthOfLeaving: "Current",
-      YearOfLeaving: "2020",
-      Achievements: "In progress",
+      MonthOfLeaving: "January",
+      YearOfLeaving: "2021",
+      Achievements: "Completed",
     },
   ],
   skillsDescription: "PROGRAMMING LANGUAGES & TOOLS",
   skillLinks: [
     {
-      name: "html5",
-      className: "fab fa-html5",
-    },
-    {
-      name: "css3",
-      className: "fab fa-css3",
-    },
-    {
-      name: "js",
-      className: "fab fa-js",
-    },
-    {
-      name: "ts",
-      className: "fab fa-ts",
+      name: "reactjs",
+      className: "./icon/react.png",
     },
     {
       name: "nodejs",
-      className: "fab fa-node",
+      className: "./icon/node-js.png",
     },
     {
-      name: "reactjs",
-      className: "fab fa-react",
+      name: "js",
+      className: "./icon/javascript.png",
     },
     {
       name: "java",
-      className: "fab fa-java",
+      className: "./icon/typescript.png",
     },
-
+    {
+      name: "html5",
+      className: "./icon/html.png",
+    },
+    {
+      name: "css3",
+      className: "./icon/css.png",
+    },
+    {
+      name: "sass",
+      className: "./icon/sass.png",
+    },
     {
       name: "aws",
-      className: "fab fa-aws",
+      className: "./icon/aws.png",
     },
 
     {
       name: "php",
-      className: "fab fa-php",
+      className: "./icon/php.png",
     },
     {
-      name: "laravel",
-      className: "fab fa-laravel",
-    },
-
-    {
-      name: "sass",
-      className: "fab fa-sass",
+      name: "docker",
+      className: "./icon/docker.png",
     },
     {
-      name: "bootstrap",
-      className: "fab fa-bootstrap",
+      name: "github",
+      className: "./icon/github.png",
     },
     {
       name: "database",
-      className: "fas fa-database",
+      className: "./icon/database.png",
+    },
+    {
+      name: "database",
+      className: "./icon/c-sharp.png",
     },
   ],
   testimonials: [
@@ -154,6 +152,16 @@ let resumeData = {
       name: "Web visualization by ReactJs",
       link: "",
       image: "./images/WebVisualization.png",
+    },
+    {
+      name: "Web visualization by ReactJs",
+      link: "",
+      image: "./images/webvisualizationpage.png",
+    },
+    {
+      name: "Shopping website by ReactJs",
+      link: "",
+      image: "./images/shopping-web-react.png",
     },
     {
       name: "Natours Web by Nodejs",

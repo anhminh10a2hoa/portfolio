@@ -49,11 +49,7 @@
 
    /* About Section
    ------------------------------------------------------------------- */
-   #about .profile-pic {
-      width: 114px;
-      height: 114px;
-      margin-left: 12px;
-   }
+
    #about .contact-details { width: 50%; }
    #about .download { width: 50%; }
 

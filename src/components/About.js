@@ -6,10 +6,10 @@ export default class About extends Component {
       <section id="about">
         <div className="row">
           <div className="three columns">
-            <img className="profile-pic" src="./images/profilepic.JPG" alt="" />
+            <img className="profile-pic" src="./images/profilepc.JPG" alt="" />
           </div>
 
-          <div className="nine columns main-col">
+          <div className="seven columns main-col">
             <h2>About Me</h2>
             <p>
               <b>Name:</b> {resumeData.name} <br />
@@ -24,6 +24,10 @@ export default class About extends Component {
               {resumeData.aboutme3}
               <br />
               {resumeData.aboutme4}
+              <br />
+              {resumeData.aboutme5}
+              <br />
+              {resumeData.aboutme6}
             </p>
           </div>
         </div>

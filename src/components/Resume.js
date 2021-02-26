@@ -76,7 +76,7 @@ export default class Resume extends Component {
                 {resumeData.skillLinks.map((item, index) => {
                   return (
                     <li key={index} className="list-inline-item">
-                      <i className={item.className} />
+                      <img src={item.className}  />
                     </li>
                   );
                 })}

@@ -257,10 +257,9 @@ ul#nav li.current a {
 
 #about .profile-pic {
     position: absolute;
-    width: 300px;
-    height: 300px;
-    left: 5px;
-    border-radius: 100%;
+    border-radius: 20px;
+    margin-left: 5em;
+    margin-top: 1em;
 }
 
 #about .contact-details {
