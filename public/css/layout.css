@@ -37,7 +37,7 @@ header {
     height: 800px;
     min-height: 500px;
     width: 100%;
-    background: #161415 url(../images/header-background.jpg) no-repeat top center;
+    background: #161415 url(../images/header-background2.jpg) no-repeat top center;
     background-size: cover !important;
     -webkit-background-size: cover !important;
     text-align: center;
@@ -223,7 +223,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #about {
-    background: #ba6b57;
+    background: #014670;
     padding-top: 96px;
     padding-bottom: 66px;
     overflow: hidden;
@@ -296,7 +296,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #resume {
-    background: #fff;
+    background: #fffbab;
     padding-top: 90px;
     padding-bottom: 72px;
     overflow: hidden;
@@ -698,7 +698,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-    background: #1f1f1f url(../images/samac.jpg) no-repeat center center;
+    background: #1f1f1f url(../images/footer.jpg) no-repeat center center;
     background-size: cover !important;
     -webkit-background-size: cover !important;
     background-attachment: fixed;
@@ -911,10 +911,13 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-    background: #ba6b57;
+    background: #109896;
     padding-top: 96px;
     padding-bottom: 102px;
-    color: #ba6b57;
+    color: #342525;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #contact .section-head {
@@ -960,9 +963,20 @@ call-to-action .button {
     margin-bottom: 6px;
 }
 
+#contact .row { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact .hl-text {
+  display: inline;
+  color: #ffeda1;
+}
+
 #contact p.lead {
     font: 18px/36px "opensans-light", sans-serif;
-    padding-right: 3%;
+    /* padding-right: 3%; */
 }
 
 #contact .header-col {

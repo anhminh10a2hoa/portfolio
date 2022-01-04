@@ -5,9 +5,9 @@ let resumeData = {
   gmail: "anhminh10a2hoa@gmail.com",
   dob: "25/06/2000",
   nationality: "Vietnamese",
-  address: "65200 Vaasa, Finland",
+  address: "33200 Tampere, Finland",
   linkedin: "https://www.linkedin.com/in/minh-hoang-110510181/",
-  phonenumber: "0403620608",
+  phonenumber: "(+358) 403620608",
   roleDescription: "",
   socialLinks: [
     {
@@ -27,12 +27,12 @@ let resumeData = {
     },
   ],
   aboutme:
-    "I am a third-year student at Vassa University of Applied Science, Software Engineering major. I have experiences and knowledge about:",
-  aboutme1: "+ Languages: JavaScript, TypeScript, Java",
-  aboutme2: "+ Frontend: React, Vue, Redux, HTML, CSS, Bootstrap",
-  aboutme3: "+ Backend: Express, Node, Spring, Servlet, AWS", 
-  aboutme4: "+ Databases: MySQL, MongoDB, Postgres, MariaDB",
-  aboutme5: "+ Map: MapBox",
+    "I am a final-year student at Vassa University of Applied Science, Software Engineering major. I have experiences and knowledge about:",
+  aboutme1: "+ Languages: JavaScript, TypeScript, Java, C#, PHP",
+  aboutme2: "+ Frontend: React, Vue, HTML, CSS",
+  aboutme3: "+ Backend: Express, Node, Spring, Servlet, AWS, Dotnet", 
+  aboutme4: "+ Databases: NoSql, Sql",
+  aboutme5: "+ Another: MapBox, Postman",
   aboutme6: "+ Technical Practices: REST API Design",
   website: "https://anhminh10a2hoa.github.io/CV-REACT/",
   education: [
@@ -42,6 +42,7 @@ let resumeData = {
       MonthOfPassing: "August",
       YearOfPassing: "2018",
       Achievements: "Graduated",
+      Gpa: "9.1/10"
     },
     {
       UniversityName: "Vaasa University of Applied Sciences",
@@ -49,6 +50,7 @@ let resumeData = {
       MonthOfPassing: "August",
       YearOfPassing: "2022",
       Achievements: "Present",
+      Gpa: "4.0/5"
     },
   ],
   experience: [
@@ -79,6 +81,13 @@ let resumeData = {
       MonthOfLeaving: "January",
       YearOfLeaving: "2021",
       Achievements: "Completed",
+    },
+    {
+      CompanyName: "Sofia Digital Oy",
+      specialization: "Software Developer",
+      MonthOfLeaving: "April",
+      YearOfLeaving: "2021",
+      Achievements: "Present",
     },
   ],
   skillsDescription: "PROGRAMMING LANGUAGES & TOOLS",

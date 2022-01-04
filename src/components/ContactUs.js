@@ -4,21 +4,17 @@ export default class ContactUs extends Component {
     let resumeData = this.props.resumeData;
     return (
       <section id="contact">
-        <div className="row section-head">
-          <div className="ten columns">
-            <h2 className="lead">Contact me: </h2>
-          </div>
-        </div>
         <div className="row">
+          <h2 className="lead">Contact me: </h2>
           <aside className="eigth columns footer-widgets">
             <div className="widget">
               <h4>
                 Gmail:
-                <a href={`mailto:${resumeData.gmail}`}> {resumeData.gmail}</a>
+                <a className="hl-text" href={`mailto:${resumeData.gmail}`}> {resumeData.gmail}</a>
                 <br />
-                Phone number: {resumeData.phonenumber}
+                Phone number: <p className="hl-text">{resumeData.phonenumber}</p>
                 <br />
-                Address: {resumeData.address}
+                Address: <p className="hl-text">{resumeData.address}</p>
               </h4>
             </div>
           </aside>
