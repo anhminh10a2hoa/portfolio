@@ -78,7 +78,7 @@ const Resume = ({resumeData}) => {
             <ul className="list-inline">
               {resumeData.skillLinks.map((item, index) => {
                 return (
-                  <li key={index} className="list-inline-item">
+                  <li key={index} className={`list-inline-item ${item.name}`}>
                     <img src={item.className} alt="" />
                   </li>
                 );

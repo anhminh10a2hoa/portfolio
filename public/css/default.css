@@ -1172,3 +1172,7 @@ properly.
   margin-right: auto !important;
   text-align: center !important;
 }
+
+.black-color {
+  color: #313131 !important;
+}

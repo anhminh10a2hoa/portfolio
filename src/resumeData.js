@@ -5,7 +5,7 @@ let resumeData = {
   gmail: 'anhminh10a2hoa@gmail.com',
   dob: '25/06/2000',
   nationality: 'Vietnamese',
-  address: '33200 Tampere, Finland',
+  address: 'Tampere, Finland',
   linkedin: 'https://www.linkedin.com/in/minh-hoang-110510181/',
   phonenumber: '(+358) 403620608',
   roleDescription: '',
@@ -27,13 +27,8 @@ let resumeData = {
     }
   ],
   aboutme:
-    'I am a final-year student at Vassa University of Applied Science, Software Engineering major. I have experiences and knowledge about:',
-  aboutme1: '+ Languages: JavaScript, TypeScript, Java, C#, PHP',
-  aboutme2: '+ Frontend: React, Vue, HTML, CSS',
-  aboutme3: '+ Backend: Express, Node, Spring, Servlet, AWS, Dotnet',
-  aboutme4: '+ Databases: NoSql, Sql',
-  aboutme5: '+ Another: MapBox, Postman',
-  aboutme6: '+ Technical Practices: REST API Design',
+    "+ Hi, I'm Minh, 21 years old from Vietnam. Currently, I am working as a Software Developer at Sofia Digital Oy (Tampere, Finland). Regarding my studies, I will graduate with a bachelor's degree in software engineering in May 2022 with a GPA of 4.0",
+  skill: "+ A junior software developer with more than 1.5 years of experience in web application, building and developing smart tv application.",
   website: 'https://anhminh10a2hoa.github.io/CV-REACT/',
   education: [
     {
@@ -94,6 +89,10 @@ let resumeData = {
       className: './icon/react.png'
     },
     {
+      name: 'vue skill-img',
+      className: './icon/vue.png'
+    },
+    {
       name: 'nodejs',
       className: './icon/node-js.png'
     },
@@ -102,8 +101,28 @@ let resumeData = {
       className: './icon/javascript.png'
     },
     {
-      name: 'java',
+      name: 'typescript',
       className: './icon/typescript.png'
+    },
+    {
+      name: 'java',
+      className: './icon/java.png'
+    },
+    {
+      name: 'docker',
+      className: './icon/docker.png'
+    },
+    {
+      name: 'github',
+      className: './icon/github.png'
+    },
+    {
+      name: 'jenkins skill-img',
+      className: './icon/jenkins.png'
+    },
+    {
+      name: 'database',
+      className: './icon/database.png'
     },
     {
       name: 'html5',
@@ -121,27 +140,10 @@ let resumeData = {
       name: 'aws',
       className: './icon/aws.png'
     },
-
     {
-      name: 'php',
-      className: './icon/php.png'
-    },
-    {
-      name: 'docker',
-      className: './icon/docker.png'
-    },
-    {
-      name: 'github',
-      className: './icon/github.png'
-    },
-    {
-      name: 'database',
-      className: './icon/database.png'
-    },
-    {
-      name: 'database',
+      name: 'csharp',
       className: './icon/c-sharp.png'
-    }
+    },
   ],
   testimonials: [
     {

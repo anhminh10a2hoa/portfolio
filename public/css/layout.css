@@ -223,7 +223,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #about {
-  background: #014670;
+  background: #cd9575;
   padding-top: 96px;
   padding-bottom: 66px;
   overflow: hidden;
@@ -260,7 +260,7 @@ ul#nav li.current a {
   border-radius: 5px;
   width: 150%;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 #about .contact-details {
@@ -413,6 +413,13 @@ ul#nav li.current a {
 
 .fa-database {
   color: rgb(18, 166, 224);
+}
+
+.skill-img img {
+  height: 60px;
+  width: 60px;
+  max-width: 60px;
+  max-height: 60px;
 }
 
 .fa-react {
