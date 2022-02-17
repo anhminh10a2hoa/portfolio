@@ -256,10 +256,11 @@ ul#nav li.current a {
 }
 
 #about .profile-pic {
-  position: absolute;
-  border-radius: 20px;
-  margin-left: 5em;
-  margin-top: 1em;
+  position: relative;
+  border-radius: 5px;
+  width: 150%;
+  margin: auto;
+  margin-top: 20px;
 }
 
 #about .contact-details {

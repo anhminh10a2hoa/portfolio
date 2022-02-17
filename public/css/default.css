@@ -632,11 +632,6 @@ dd {
 }
 
 /*  5. Images  --------------------------------------------------------- */
-
-img {
-  max-width: 100%;
-  height: auto;
-}
 img.pull-right {
   margin: 12px 0px 0px 18px;
 }
@@ -882,7 +877,9 @@ input[type='checkbox'] {
 .row .twelve {
   width: 100%;
 }
-
+.row .twelve .company {
+  cursor: pointer;
+}
 /* Offsets */
 .row .offset-1 {
   margin-left: 8.33333%;

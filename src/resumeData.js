@@ -47,7 +47,7 @@ let resumeData = {
     {
       UniversityName: 'Vaasa University of Applied Sciences',
       specialization: 'Information technology',
-      MonthOfPassing: 'August',
+      MonthOfPassing: 'May',
       YearOfPassing: '2022',
       Achievements: 'Present',
       Gpa: '4.0/5'
@@ -55,39 +55,36 @@ let resumeData = {
   ],
   experience: [
     {
-      CompanyName: 'ANZ Solution and Technology Joint Stock Company',
-      specialization: 'PHP & JavaScript Developer',
-      MonthOfLeaving: 'August',
-      YearOfLeaving: '2019',
-      Achievements: 'Completed'
-    },
-    {
       CompanyName: 'Vietpro Technology Academy',
-      specialization: 'PHP Web Developer',
+      specialization: 'Web Developer Trainee',
       MonthOfLeaving: 'August',
       YearOfLeaving: '2019',
-      Achievements: 'Completed'
+      Achievements: 'Completed',
+      Link: 'https://vietpro.edu.vn/',
     },
     {
-      CompanyName: 'Attract project',
-      specialization: 'React Native Developer',
-      MonthOfLeaving: 'June',
-      YearOfLeaving: '2020',
-      Achievements: 'Completed'
-    },
-    {
-      CompanyName: 'Rain portal (Sky echo company)',
-      specialization: 'React Js Developer',
+      CompanyName: 'SkyEcho',
+      specialization: 'Web Developer',
       MonthOfLeaving: 'January',
       YearOfLeaving: '2021',
-      Achievements: 'Completed'
+      Achievements: 'Completed',
+      Link: 'https://www.sky-echo.eu/',
+    },
+    {
+      CompanyName: 'International Working Women of Finland Ry',
+      specialization: 'Web Developer Freelance',
+      MonthOfLeaving: 'May',
+      YearOfLeaving: '2021',
+      Achievements: 'Completed',
+      Link: 'https://iwwof.com/'
     },
     {
       CompanyName: 'Sofia Digital Oy',
       specialization: 'Software Developer',
       MonthOfLeaving: 'April',
       YearOfLeaving: '2021',
-      Achievements: 'Present'
+      Achievements: 'Present',
+      Link: 'https://sofiadigital.com/'
     }
   ],
   skillsDescription: 'PROGRAMMING LANGUAGES & TOOLS',
