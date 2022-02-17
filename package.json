@@ -14,7 +14,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix",
+    "format": "prettier **/*.{css,js,json} --write"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -26,6 +29,11 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "gh-pages": "^2.1.1"
+    "eslint": "^8.9.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.28.0",
+    "gh-pages": "^2.1.1",
+    "prettier": "^2.5.1"
   }
 }

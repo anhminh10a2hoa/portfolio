@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 export default class Resume extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -19,8 +19,8 @@ export default class Resume extends Component {
                     <div className="twelve columns">
                       <h3>{item.UniversityName}</h3>
                       <p className="info">
-                        {item.specialization + " - " + item.Gpa}
-                        <span>&bull;</span>{" "}
+                        {item.specialization + ' - ' + item.Gpa}
+                        <span>&bull;</span>{' '}
                         <em className="date">
                           {item.MonthOfPassing} {item.YearOfPassing}
                         </em>
@@ -48,7 +48,7 @@ export default class Resume extends Component {
                       <h3>{item.CompanyName}</h3>
                       <p className="info">
                         {item.specialization}
-                        <span>&bull;</span>{" "}
+                        <span>&bull;</span>{' '}
                         <em className="date">
                           {item.MonthOfLeaving} {item.YearOfLeaving}
                         </em>
@@ -76,7 +76,7 @@ export default class Resume extends Component {
                 {resumeData.skillLinks.map((item, index) => {
                   return (
                     <li key={index} className="list-inline-item">
-                      <img src={item.className}  />
+                      <img src={item.className} alt="" />
                     </li>
                   );
                 })}

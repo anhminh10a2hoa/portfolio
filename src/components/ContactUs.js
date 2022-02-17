@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 export default class ContactUs extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -10,7 +10,10 @@ export default class ContactUs extends Component {
             <div className="widget">
               <h4>
                 Gmail:
-                <a className="hl-text" href={`mailto:${resumeData.gmail}`}> {resumeData.gmail}</a>
+                <a className="hl-text" href={`mailto:${resumeData.gmail}`}>
+                  {' '}
+                  {resumeData.gmail}
+                </a>
                 <br />
                 Phone number: <p className="hl-text">{resumeData.phonenumber}</p>
                 <br />
