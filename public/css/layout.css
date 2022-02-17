@@ -229,6 +229,11 @@ ul#nav li.current a {
   overflow: hidden;
 }
 
+#about .about-me-text {
+  font-size: 16px;
+  font-weight: 600;
+}
+
 #about a,
 #about a:visited {
   color: #fff;
@@ -260,7 +265,6 @@ ul#nav li.current a {
   border-radius: 5px;
   width: 150%;
   margin: auto;
-  margin-top: 10px;
 }
 
 #about .contact-details {
