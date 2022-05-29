@@ -51,12 +51,8 @@ const Resume = ({resumeData}) => {
                     <h3 className="company" onClick={() => goToCompanyLink(item.Link)}>{item.CompanyName}</h3>
                     <p className="info">
                       {item.specialization}
-                      <span>&bull;</span>{' '}
-                      <em className="date">
-                        {item.MonthOfLeaving} {item.YearOfLeaving}
-                      </em>
                     </p>
-                    <p>{item.Achievements}</p>
+                    <p>{item.workingDuration}</p>
                   </div>
                 </div>
               );

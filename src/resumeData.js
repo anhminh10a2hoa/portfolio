@@ -52,34 +52,32 @@ let resumeData = {
     {
       CompanyName: 'Vietpro Technology Academy',
       specialization: 'Web Developer Trainee',
-      MonthOfLeaving: 'August',
-      YearOfLeaving: '2019',
-      Achievements: 'Completed',
+      workingDuration: 'May 2019 - Aug 2019',
       Link: 'https://vietpro.edu.vn/',
     },
     {
-      CompanyName: 'SkyEcho',
+      CompanyName: 'SkyEcho v.o.f.',
       specialization: 'Web Developer',
-      MonthOfLeaving: 'January',
-      YearOfLeaving: '2021',
-      Achievements: 'Completed',
+      workingDuration: 'Apr 2020 - Jan 2021',
       Link: 'https://www.sky-echo.eu/',
     },
     {
       CompanyName: 'International Working Women of Finland Ry',
       specialization: 'Web Developer Freelance',
-      MonthOfLeaving: 'May',
-      YearOfLeaving: '2021',
-      Achievements: 'Completed',
+      workingDuration: 'Feb 2021 - May 2021',
       Link: 'https://iwwof.com/'
     },
     {
       CompanyName: 'Sofia Digital Oy',
       specialization: 'Software Developer',
-      MonthOfLeaving: 'April',
-      YearOfLeaving: '2021',
-      Achievements: 'Present',
+      workingDuration: 'Apr 2021 - May 2022',
       Link: 'https://sofiadigital.com/'
+    },
+    {
+      CompanyName: 'Cargotec Oyj',
+      specialization: 'Software Engineer',
+      workingDuration: 'May 2022 - Present',
+      Link: 'https://www.cargotec.com/'
     }
   ],
   skillsDescription: 'PROGRAMMING LANGUAGES & TOOLS',
