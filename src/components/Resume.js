@@ -52,6 +52,12 @@ const Resume = ({resumeData}) => {
                     <p className="info">
                       {item.specialization}
                     </p>
+                    <ul>
+                      {(item.description || []).map((des) => 
+                        <li>{des}</li>
+                      )}
+                    </ul>
+                    <div><b className="black-color">Skills:</b> {item.skills}</div>
                     <p>{item.workingDuration}</p>
                   </div>
                 </div>

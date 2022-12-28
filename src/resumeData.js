@@ -27,9 +27,8 @@ let resumeData = {
     }
   ],
   aboutme:
-    "+ Hi, I'm Minh, 21 years old from Vietnam. Currently, I am working as a Software Developer at Sofia Digital Oy (Tampere, Finland). Regarding my studies, I will graduate with a bachelor's degree in software engineering in May 2022 with a GPA of 4.0",
-  skill: "+ A junior software developer with more than 1.5 years of experience in web application, building and developing smart tv application.",
-  website: 'https://anhminh10a2hoa.github.io/CV-REACT/',
+    "+ Hi, I'm Minh Hoang, 22 years old from Vietnam and graduated with a bachelor's degree in software engineering with a GPA of 4.0. Currently, I am working as a Software Engineer at Cargotec (Tampere, Finland).",
+  skill: "+ A software engineer with more than 2.5 years of experience in building and developing web application smart tv application.",
   education: [
     {
       UniversityName: 'Hus High School for Gifted Students',
@@ -44,41 +43,51 @@ let resumeData = {
       specialization: 'Information technology',
       MonthOfPassing: 'May',
       YearOfPassing: '2022',
-      Achievements: 'Present',
+      Achievements: 'Graduated',
       Gpa: '4.0/5'
     }
   ],
   experience: [
     {
-      CompanyName: 'Vietpro Technology Academy',
-      specialization: 'Web Developer Trainee',
-      workingDuration: 'May 2019 - Aug 2019',
-      Link: 'https://vietpro.edu.vn/',
-    },
-    {
-      CompanyName: 'SkyEcho v.o.f.',
-      specialization: 'Web Developer',
-      workingDuration: 'Apr 2020 - Jan 2021',
-      Link: 'https://www.sky-echo.eu/',
-    },
-    {
-      CompanyName: 'International Working Women of Finland Ry',
-      specialization: 'Web Developer Freelance',
-      workingDuration: 'Feb 2021 - May 2021',
-      Link: 'https://iwwof.com/'
+      CompanyName: 'Cargotec Oyj',
+      specialization: 'Software Engineer',
+      workingDuration: 'May 2022 - Present',
+      description: ['• Developing new features, optimize existing code, maintaining and testing for web and mobile application',
+      '• Working both on front end, back end and writing query for the database as performance as possible.',
+      "• Providing solutions and implementing new features based on customer's requirements."
+      ],
+      skills: "React, Node, Typescript, JavaScript, Material-UI, Amazon Web Services (AWS), PostgreSQL, Jest",
+      Link: 'https://www.cargotec.com/'
     },
     {
       CompanyName: 'Sofia Digital Oy',
       specialization: 'Software Developer',
       workingDuration: 'Apr 2021 - May 2022',
+      description: ['• Maintained and developed new features for HbbTV and SmartTV application running on multiple TV platforms (Android, LG, Samsung, ...) for international media companies (RTM, ETV, Ruutu).',
+      '• Developed website that provides the streaming service (vod, live streaming and radio) for RTM (Radio Television Malaysia).',
+      "• Implemented Shaka player module for the Reference application (internal testing application at Sofia Digital)."
+      ],
+      skills: "Vue, Node, JavaScript, VideoJs, Java, Go Native, Shaka, jQuery, Jenkins, Docker, Android Studio, Jest",
       Link: 'https://sofiadigital.com/'
     },
     {
-      CompanyName: 'Cargotec Oyj',
-      specialization: 'Software Engineer',
-      workingDuration: 'May 2022 - Present',
-      Link: 'https://www.cargotec.com/'
-    }
+      CompanyName: 'SkyEcho v.o.f.',
+      specialization: 'Software Developer',
+      workingDuration: 'Apr 2020 - Jan 2021',
+      description: ['• My responsibility is building, maintaining the web-based application that visualizes and manipulate precipitation data sources.',
+      '• Integrated authentication and set up CI/CD(AWS Amplify, AWS S3 Bucket, AWS Route53, GitLab CI)',
+      ],
+      skills: "React, TypeScript, Amazon Web Services (AWS), Mapbox",
+      Link: 'https://www.sky-echo.eu/',
+    },
+    {
+      CompanyName: 'Vietpro Technology Academy',
+      specialization: 'Web Developer Trainee',
+      workingDuration: 'May 2019 - Aug 2019',
+      description: ["After my first year of Bachelor, I had my summer in Vietnam and completed a 4-month training programs in Web Development at Vietpro Academy. The technologies using in this course are PHP, Laravel and MySQL."],
+      skills: "PHP, Javascript, Bootstrap, HTML, CSS, Laravel",
+      Link: 'https://vietpro.edu.vn/',
+    },
   ],
   skillsDescription: 'PROGRAMMING LANGUAGES & TOOLS',
   skillLinks: [
