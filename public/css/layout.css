@@ -37,7 +37,7 @@ header {
   height: 800px;
   min-height: 500px;
   width: 100%;
-  background: #161415 url(../images/header-background2.jpg) no-repeat top center;
+  background: #161415 url(../images/header-background1.jpg) no-repeat top center;
   background-size: cover !important;
   -webkit-background-size: cover !important;
   text-align: center;
@@ -223,7 +223,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #about {
-  background: #cd9575;
+  background: #557571;
   padding-top: 96px;
   padding-bottom: 66px;
   overflow: hidden;
@@ -301,7 +301,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #resume {
-  background: #fffbab;
+  background: #9BB67C;
   padding-top: 90px;
   padding-bottom: 72px;
   overflow: hidden;
@@ -349,7 +349,7 @@ ul#nav li.current a {
 
 #resume .info {
   font: 16px/24px 'librebaskerville-italic', serif;
-  color: #6e7881;
+  color: #2b3034;
   margin-bottom: 18px;
   margin-top: 9px;
 }
@@ -440,7 +440,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-  background: #ebeeee;
+  background: #000;
   padding-top: 90px;
   padding-bottom: 60px;
 }
@@ -674,7 +674,7 @@ ul#nav li.current a {
 
 #call-to-action h2 {
   font: 28px/36px 'opensans-bold', sans-serif;
-  color: #ebeeee;
+  color: #000;
   margin-bottom: 6px;
 }
 
@@ -923,7 +923,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-  background: #109896;
+  background: #EEBB4D;
   padding-top: 96px;
   padding-bottom: 102px;
   color: #342525;
@@ -950,7 +950,7 @@ call-to-action .button {
   font: 18px/24px 'opensans-bold', sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
-  color: #ebeeee;
+  color: #000;
   margin-bottom: 6px;
 }
 
@@ -966,12 +966,12 @@ call-to-action .button {
   line-height: 72px;
   text-align: left;
   float: left;
-  color: #ebeeee;
+  color: #000;
 }
 
 #contact h4 {
   font: 16px/24px 'opensans-bold', sans-serif;
-  color: #ebeeee;
+  color: #000;
   margin-bottom: 6px;
 }
 
@@ -983,7 +983,7 @@ call-to-action .button {
 
 #contact .hl-text {
   display: inline;
-  color: #ffeda1;
+  color: #fff;
 }
 
 #contact p.lead {
@@ -1004,7 +1004,7 @@ call-to-action .button {
 #contact label {
   font: 15px/24px 'opensans-bold', sans-serif;
   margin: 12px 0;
-  color: #ebeeee;
+  color: #000;
   display: inline-block;
   width: 26%;
 }

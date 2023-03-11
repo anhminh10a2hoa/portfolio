@@ -1,13 +1,11 @@
 let resumeData = {
   imagebaseurl: 'https://rbhatia46.github.io/',
   name: 'Hoang Anh Minh',
-  role: 'Software developer',
+  role: 'Software Engineer',
   gmail: 'anhminh10a2hoa@gmail.com',
-  dob: '25/06/2000',
-  nationality: 'Vietnamese',
-  address: 'Tampere, Finland',
+  address: 'Finland',
   linkedin: 'https://www.linkedin.com/in/minh-hoang-110510181/',
-  phonenumber: '(+358) 403620608',
+  phonenumber: '(+358) 406765729',
   roleDescription: '',
   socialLinks: [
     {
@@ -27,8 +25,8 @@ let resumeData = {
     }
   ],
   aboutme:
-    "+ Hi, I'm Minh Hoang, 22 years old from Vietnam and graduated with a bachelor's degree in software engineering with a GPA of 4.0. Currently, I am working as a Software Engineer at Cargotec (Tampere, Finland).",
-  skill: "+ A software engineer with more than 2.5 years of experience in building and developing web application smart tv application.",
+    "+ I am a software engineer currently based in Finland. Originally from Vietnam, I bring a unique perspective to my work and have a strong passion for technology and innovation. With 3 years of experience in web and television development(HbbTV and SmartTV), I have honed my skills in designing and implementing complex systems.",
+  skill: "+ I am an enthusiastic, self-motivated, reliable, responsible, and hardworking individual who is always eager to take on new challenges and constantly striving to improve. I believe that my diverse background and technical expertise make me an asset to any team, and I look forward to connecting with others in the industry.",
   education: [
     {
       UniversityName: 'Hus High School for Gifted Students',
@@ -146,10 +144,6 @@ let resumeData = {
     {
       name: 'aws',
       className: './icon/aws.png'
-    },
-    {
-      name: 'csharp',
-      className: './icon/c-sharp.png'
     },
   ],
   testimonials: [
