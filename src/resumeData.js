@@ -25,25 +25,24 @@ let resumeData = {
     }
   ],
   aboutme:
-    "+ I am a software engineer currently based in Finland. Originally from Vietnam, I bring a unique perspective to my work and have a strong passion for technology and innovation. With 3 years of experience in web and television development(HbbTV and SmartTV), I have honed my skills in designing and implementing complex systems.",
+    "+ Hi, I am a software engineer currently based in Finland. Originally from Vietnam, I bring a unique perspective to my work and have a strong passion for technology and innovation. With 3 years of experience in web and television development(HbbTV and SmartTV), I have honed my skills in designing and implementing complex systems.",
   skill: "+ I am an enthusiastic, self-motivated, reliable, responsible, and hardworking individual who is always eager to take on new challenges and constantly striving to improve. I believe that my diverse background and technical expertise make me an asset to any team, and I look forward to connecting with others in the industry.",
   education: [
     {
-      UniversityName: 'Hus High School for Gifted Students',
-      specialization: 'Chemistry',
+      UniversityName: 'Tampere University',
+      specialization: 'Master of Science - MS, Software, Web & Cloud',
       MonthOfPassing: 'August',
-      YearOfPassing: '2018',
-      Achievements: 'Graduated',
-      Gpa: '9.1/10'
+      YearOfPassing: '2023',
+      Achievements: 'Present'
     },
     {
       UniversityName: 'Vaasa University of Applied Sciences',
-      specialization: 'Information technology',
+      specialization: 'Bachelor of Information Technology',
       MonthOfPassing: 'May',
       YearOfPassing: '2022',
       Achievements: 'Graduated',
       Gpa: '4.0/5'
-    }
+    },
   ],
   experience: [
     {
@@ -55,36 +54,36 @@ let resumeData = {
       "• Providing solutions and implementing new features based on customer's requirements."
       ],
       skills: "React, Node, Typescript, JavaScript, Material-UI, Amazon Web Services (AWS), PostgreSQL, Jest",
-      Link: 'https://www.cargotec.com/'
+      Link: 'https://www.cargotec.com'
     },
     {
       CompanyName: 'Sofia Digital Oy',
       specialization: 'Software Developer',
       workingDuration: 'Apr 2021 - May 2022',
-      description: ['• Maintained and developed new features for HbbTV and SmartTV application running on multiple TV platforms (Android, LG, Samsung, ...) for international media companies (RTM, ETV, Ruutu).',
-      '• Developed website that provides the streaming service (vod, live streaming and radio) for RTM (Radio Television Malaysia).',
-      "• Implemented Shaka player module for the Reference application (internal testing application at Sofia Digital)."
+      description: ['• Engaged in the development, testing, and maintenance of HbbTV and SmartTV applications across various TV platforms (Android, LG, Samsung, etc.) for esteemed international media companies including RTM, ETV, and Ruutu.',
+      '• Contributed to the creation of a website catering to the streaming services (VOD, live streaming, and radio) for RTM (Radio Television Malaysia).',
+      "• Successfully implemented the Shaka player module for the Reference application, an internal testing application at Sofia Digital."
       ],
       skills: "Vue, Node, JavaScript, VideoJs, Java, Go Native, Shaka, jQuery, Jenkins, Docker, Android Studio, Jest",
-      Link: 'https://sofiadigital.com/'
+      Link: 'https://sofiadigital.com'
     },
     {
       CompanyName: 'SkyEcho v.o.f.',
       specialization: 'Software Developer',
       workingDuration: 'Apr 2020 - Jan 2021',
-      description: ['• My responsibility is building, maintaining the web-based application that visualizes and manipulate precipitation data sources.',
-      '• Integrated authentication and set up CI/CD(AWS Amplify, AWS S3 Bucket, AWS Route53, GitLab CI)',
+      description: ['• Engaged in development and maintenance of a web-based application focused on visualizing and manipulating precipitation data sources.',
+      '• Demonstrated adeptness in managing user authentication and implementing CI/CD processes using technologies such as AWS Amplify, AWS S3 Bucket, AWS Route53, and GitLab CI.',
       ],
       skills: "React, TypeScript, Amazon Web Services (AWS), Mapbox",
-      Link: 'https://www.sky-echo.eu/',
+      Link: 'https://www.sky-echo.eu',
     },
     {
       CompanyName: 'Vietpro Technology Academy',
       specialization: 'Web Developer Trainee',
       workingDuration: 'May 2019 - Aug 2019',
-      description: ["After my first year of Bachelor, I had my summer in Vietnam and completed a 4-month training programs in Web Development at Vietpro Academy. The technologies using in this course are PHP, Laravel and MySQL."],
+      description: ["During the summer following my first year of Bachelor's degree, I undertook a rigorous 4-month training program in Web Development at Vietpro Academy in Vietnam. Throughout this immersive experience, I acquired comprehensive knowledge and practical skills in utilizing cutting-edge technologies such as PHP, Laravel, and MySQL."],
       skills: "PHP, Javascript, Bootstrap, HTML, CSS, Laravel",
-      Link: 'https://vietpro.edu.vn/',
+      Link: 'https://vietpro.edu.vn',
     },
   ],
   skillsDescription: 'PROGRAMMING LANGUAGES & TOOLS',
