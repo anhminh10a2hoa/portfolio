@@ -1,36 +1,41 @@
-# This is a basic workflow to help you get started with Actions
-
-name: CI
-
-# Controls when the workflow will run
-on:
-  # Triggers the workflow on push or pull request events but only for the "master" branch
+on: 
   push:
-    branches: [ "master" ]
-  pull_request:
-    branches: [ "master" ]
+    branches:
+      - "master"
+name: 🚀 Deploy portfolio on push
 
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
+  client-deploy:
+    name: Deploy portfolio to Cpanel
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v3
+    - name: Get latest client code
+      uses: actions/checkout@v2.3.2
 
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
+    - name: Use Node.js 16
+      uses: actions/setup-node@v2
+      with:
+        node-version: "16"
 
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+    - name: Build project
+      run: |
+        npm install
+        npm run build
+
+    - name: Copy .htaccess file
+      run: cp .htaccess build/
+
+    - name: List output files
+      run: find build/ -print
+    
+    - name: Sync files
+      uses: SamKirkland/FTP-Deploy-Action@2.0.0
+      env:
+        FTP_SERVER: ${{ secrets.ftp_server }}
+        FTP_USERNAME: ${{ secrets.ftp_username }}
+        FTP_PASSWORD: ${{ secrets.ftp_password }}
+        PORT: ${{ secrets.ftp_port }}
+        LOCAL_DIR: build/
+        REMOTE_DIR: portfolio.hoanganhminh.blog/
+        ARGS: --verbose
+        METHOD: sftp
